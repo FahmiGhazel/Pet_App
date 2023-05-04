@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/main-style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Paws & Claws</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <a href="main.html">
+        <img
+          class="pnclogo"
+          alt="Paws & Claws Logo"
+          src="images/pawsclawslogo.png"
+      /></a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="products.html">Products</a></li>
+          <li><a class="main-nav-link" href="services.html">Services</a></li>
+          <li><a class="main-nav-link" href="about-us.html">About Us</a></li>
+          <li><a class="main-nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <a class="signinregister" href="#">Sign in / Register</a>
+    </header>
+
+    <!--Carousel-->
+
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="images/carousel-one.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h4 class="first-slide">Best life for your furbabies!</h4>
+            <a href="#" class="btn explore-products">EXPLORE PRODUCTS</a>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <p>
+              <img src="images/left-splash.png" alt="splash icon" />
+              Team Paws & Claws
+              <img src="images/right-splash.png" alt="splash icon" />
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/carousel-two.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="second-slide">
+              Happy pet, Happy life!
+              <a href="#" class="btn explore-services">EXPLORE SERVICES</a>
+            </h5>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <p>
+              <img src="images/left-splash.png" alt="splash icon" />
+              Team Paws & Claws
+              <img src="images/right-splash.png" alt="splash icon" />
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--------- Feature title starts here -------->
+    <section class="feature-title">
+      <div class="feature-container">
+        <div class="feature">
+          <a href="#boarding">
+            <img src="images/pet-hotel.png" alt="Pets icons created by
+            photo3idea_studio - Flaticon" / class="feature-icon">
+          </a>
+          <p class="feature-title">Boarding</p>
+          <p class="feature-text">
+            Clean, spacious air-conditioned room to keep your little ones
+            comfortable.
+          </p>
+        </div>
+        <div class="feature">
+          <a href="#walking">
+            <img src="images/walking.png" alt="Pets icons created by
+            photo3idea_studio - Flaticon" / class="feature-icon">
+          </a>
+          <p class="feature-title">Walking</p>
+          <p class="feature-text">
+            Meet & Connect with our friendly locals for a true Singapore
+            Experience.
+          </p>
+        </div>
+        <div class="feature">
+          <a href="#grooming"
+            ><img src="images/grooming.png" alt="Grooming icons created by
+            Freepik - Flaticon" / class="feature-icon"></a
+          >
+          <p class="feature-title">Grooming</p>
+          <p class="feature-text">
+            Discover off the beaten path destinations in Singapore.
+          </p>
+        </div>
+        <div class="feature">
+          <a href="#vet">
+            <img src="images/veterinary.png" alt="Veterinary icons created by
+            amonrat rungreangfangsai - Flaticon" / class="feature-icon">
+          </a>
+          <p class="feature-title">Veterinary</p>
+          <p class="feature-text">
+            Discover off the beaten path destinations in Singapore.
+          </p>
+        </div>
+        <div class="feature">
+          <a href="#">
+            <img src="images/petshop.png" alt="Pet shop icons created by Freepik
+            - Flaticon" / class="feature-icon">
+          </a>
+          <p class="feature-title">Shop</p>
+          <p class="feature-text">
+            Discover off the beaten path destinations in Singapore.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--x------- Feature title ends here ------x-->
+
+    <!--------- Primary content starts here --------->
+    <section class="main-service">
+      <div class="service-header">
+        <h2>Explore Services</h2>
+        <img
+          src="images/accent-crayon.png"
+          alt="accent crayon"
+          class="accent-crayon"
+        />
+      </div>
+      <div class="services">
+        <div class="service">
+          <img src="images/service1.jpg" alt="pet house" class="services-img" />
+          <div class="about-service" id="boarding">
+            <h1>Pet Boarding</h1>
+            <h5>Pet House</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn booknow">Book now!</a>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="about-service" id="grooming">
+            <h1>Pet Grooming</h1>
+            <h5>Professional</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn booknow">Book now!</a>
+          </div>
+          <img src="images/service2.jpg" alt="pet house" class="services-img" />
+        </div>
+
+        <div class="service">
+          <img src="images/service3.jpg" alt="pet house" class="services-img" />
+          <div class="about-service" id="walking">
+            <h1>Dog Walking</h1>
+            <h5>Pet House</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn booknow">Book now!</a>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="about-service" id="vet">
+            <h1>Veterinary</h1>
+            <h5>Professional</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn booknow">Book now!</a>
+          </div>
+          <img src="images/service4.jpg" alt="pet house" class="services-img" />
+        </div>
+      </div>
+    </section>
+    <!--x------- Primary content ends here -------x-->
+
+    <!-------- Secondary content starts here -------->
+    <section class="e-commerce">
+      <div class="product-header">
+        <h2>Explore Products</h2>
+        <img
+          src="images/accent-crayon.png"
+          alt="accent crayon"
+          class="accent-crayon"
+        />
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="images/mousetoy.png" alt="" class="card__img" />
+          <div class="card-details">
+            <h1 class="card-title">Mouse Toy</h1>
+            <span class="card-price">$9.90</span>
+            <p class="card-description">
+              Mouse control toy to keep your fur babies active!
+            </p>
+            <a href="#" class="card__button">ADD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/dogbowl.png" alt="" class="card__img" />
+          <div class="card-details">
+            <h1 class="card-title">Stainless Steel</h1>
+            <span class="card-price">$19.90</span>
+            <p class="card-description">
+              Premium stainless steel bowl made from real steel.
+            </p>
+            <a href="#" class="card__button">ADD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/mousetoy.png" alt="" class="card__img" />
+          <div class="card-details">
+            <h1 class="card-title">Mouse Toy</h1>
+            <span class="card-price">$9.90</span>
+            <p class="card-description">
+              Mouse control toy to keep your fur babies active!
+            </p>
+            <a href="#" class="card__button">ADD</a>
+          </div>
+        </div>
+        <a class="allproducts" href="#">View All Products</a>
+      </div>
+    </section>
+
+    <!--x------ Secondary content ends here ------x-->
+
+    <!---------- Testimonials starts here ---------->
+    <section class="testimonials">
+      <div class="testimonial-header">
+        <h2>Testimonials</h2>
+        <img
+          src="images/accent-crayon.png"
+          alt="accent crayon"
+          class="accent-crayon"
+        />
+      </div>
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <img
+            src="images/review-one.png"
+            alt="woman with cat"
+            class="review-img"
+          />
+          <p class="review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            fuga voluptas incidunt fugiat fugit doloremque aliquam eaque itaque
+            obcaecati autem!
+          </p>
+          <p class="review-name">XXXXXXXXXX</p>
+        </div>
+        <div class="testimonial">
+          <img
+            src="images/review-two.png"
+            alt="human with pet"
+            class="review-img"
+          />
+          <p class="review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p class="review-name">XXXXXXXXXX</p>
+        </div>
+        <div class="testimonial">
+          <img
+            src="images/review-three.png"
+            alt="human with pet"
+            class="review-img"
+          />
+          <p class="review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            fuga voluptas incidunt fugiat fugit doloremque aliquam eaque itaque
+            obcaecati autem! Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit.
+          </p>
+          <p class="review-name">XXXXXXXXXX</p>
+        </div>
+        <div class="testimonial">
+          <img
+            src="images/review-four.png"
+            alt="human with pet"
+            class="review-img"
+          />
+          <p class="review">
+            Blanditiis repellat odit molestiae nihil laboriosam in delectus
+            expedita magnam id nobis. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Dignissimos maiores soluta tempora sint aperiam
+            mollitia in, doloremque debitis quibusdam, consequatur magni eaque.
+            Obcaecati doloribus culpa quod expedita, autem dignissimos delectus!
+          </p>
+          <p class="review-name">XXXXXXXXXX</p>
+        </div>
+      </div>
+    </section>
+
+    <!--x-------- Testimonials ends here --------x-->
+
+    <!----------- FOOTER  -------------->
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="logo"
+              alt="Paws & Claws logo"
+              src="images/pawsclawslogo.png"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2022</span> by Paws & Claws,
+            Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Bukit Merah, Atas Street. 088917 Singapore
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">8675-5346</a><br />
+              <a class="footer-link" href="mailto:hello@pawsnclaws.com"
+                >hello@pawsnclaws.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Paws & Claws</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Pet partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Company directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- Icons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+  </body>
+</html>

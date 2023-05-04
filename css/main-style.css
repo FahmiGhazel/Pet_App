@@ -1,0 +1,398 @@
+/* ---------- Carousel ---------- */
+.carousel-caption {
+  bottom: 55rem;
+  padding-left: 40rem;
+  padding-right: 10rem;
+}
+
+.carousel-caption p {
+  display: flex;
+  bottom: -52rem;
+  left: 22rem;
+  position: absolute;
+  color: #333;
+  font-size: 5.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.carousel-caption p img {
+  width: 5rem;
+  height: 6rem;
+}
+
+.carousel-caption h4 {
+  left: 45rem;
+  top: -10rem;
+  position: absolute;
+  color: #fff;
+  font-size: 8.6rem;
+  font-weight: 800;
+}
+
+.carousel-caption h5 {
+  left: -10rem;
+  top: -15rem;
+  position: absolute;
+  color: #fff;
+  font-size: 7.2rem;
+  width: 40rem;
+  font-weight: 800;
+}
+
+.explore-products:link,
+.explore-products:visited {
+  position: absolute;
+  font-size: 2.5rem;
+  top: 15rem;
+  left: 62rem;
+  padding: 0 1rem;
+  border-radius: 30px;
+  background-color: #fffdf7;
+  color: #e68244;
+  box-shadow: 5px 3px 8px #fbd4d5;
+}
+
+.explore-products:hover,
+.explore-products:active {
+  background-color: #57f1b1;
+  color: #333;
+}
+
+.explore-services:link,
+.explore-services:visited {
+  position: absolute;
+  font-size: 2.5rem;
+  left: 15rem;
+  top: 22rem;
+  padding: 0 1rem;
+  border-radius: 30px;
+  background-color: #fffdf7;
+  color: #e68244;
+  box-shadow: 5px 3px 8px #fbd4d5;
+}
+
+.explore-services:hover,
+.explore-services:active {
+  background-color: #57f1b1;
+  color: #210a72;
+}
+/* --x------- Carousel -------x-- */
+
+/* -------- Feature Title -------- */
+.feature {
+  text-align: center;
+}
+
+.feature-icon {
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.feature-container {
+  display: flex;
+  margin: 5rem;
+  gap: 2.5rem;
+}
+/* --x----- Feature Title -----x-- */
+
+/* -------- Main Content -------- */
+.main-service {
+  width: 100%;
+  padding: 5.6rem 1rem;
+}
+
+.services-img {
+  height: 42rem;
+  width: 100rem;
+  border-radius: 5rem 1.5rem 5rem 1.5rem;
+  box-shadow: 5px 3px 8px #0000001e;
+}
+
+.about-service {
+  padding-left: 4rem;
+}
+
+.about-service h1 {
+  font-size: 8rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.about-service h5 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.about-service p {
+  letter-spacing: 0.1rem;
+  line-height: 2.8rem;
+  font-size: 1.8rem;
+  margin-bottom: 4.5rem;
+}
+
+.services {
+  margin-top: 6rem;
+}
+.service {
+  width: 120rem;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  margin-bottom: 6rem;
+}
+
+.service-header {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  width: 120rem;
+  padding: 48px;
+  position: relative;
+}
+
+.service-header h2 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.service-header img {
+  width: 55rem;
+  height: 15rem;
+  position: absolute;
+  opacity: 50%;
+  top: 1rem;
+  left: 32rem;
+  z-index: -1;
+}
+.booknow {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 2.5rem;
+  transition: 0.4s;
+}
+
+.booknow:link,
+.booknow:visited {
+  background-color: #e68244;
+}
+
+.booknow:hover,
+.booknow:active {
+  background-color: #57f1b1;
+  color: #210a72;
+}
+/* --x----- Main Content -----x-- */
+
+/* ------ E-Commerce Content ------ */
+
+.product-header {
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.product-header h2 {
+  font-size: 50px;
+}
+
+.product-header img {
+  width: 55rem;
+  height: 15rem;
+  position: absolute;
+  opacity: 50%;
+  top: -4rem;
+  left: 32rem;
+  z-index: -1;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 120rem;
+}
+
+.card {
+  border: none;
+  background-color: #fffdf7;
+  border-radius: 1rem;
+  overflow-y: hidden;
+  padding: 2rem;
+  width: 320px;
+  height: 400px;
+  margin: 2.1rem auto;
+  box-shadow: 0 1.2rem 3.2rem #00000020;
+}
+
+.card__img {
+  position: absolute;
+  width: 279px;
+  height: 320px;
+  filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+}
+
+.card-details {
+  transform: translateY(12rem);
+  text-align: center;
+  padding-top: 150px;
+}
+
+.card-title {
+  font-size: 3.1rem;
+  color: var(--first-color);
+  margin-bottom: 0.5rem;
+}
+
+.card-price {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.card-description {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2.2rem;
+  opacity: 0;
+}
+
+.card__button {
+  background-color: #57f1b1;
+  border-radius: 2rem;
+  font-weight: 600;
+  width: max-content;
+  opacity: 0;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.card__button:hover {
+  box-shadow: 0 18px 40px -12px rgba(242, 162, 12, 0.35);
+}
+
+.card__img,
+.card-details,
+.card-title,
+.card-price,
+.card-description {
+  transition: 0.5s;
+}
+
+/* Hover card effect */
+.card:hover .card__img {
+  transform: translate(-0.1rem, -11rem);
+}
+
+.card:hover .card-details {
+  transform: translateY(4.8rem);
+}
+
+.card:hover .card-description,
+.card:hover .card__button {
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+.allproducts:link,
+.allproducts:visited {
+  text-align: center;
+  grid-column: -3 / -2;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #210a72;
+  text-transform: uppercase;
+  padding: 6rem 0rem 12rem 0rem;
+}
+
+.allproducts:hover,
+.allproducts:active {
+  color: #57f1b1;
+}
+
+/* --x--- E-Commerce Content ---x-- */
+
+/* --------- TESTIMONIALS ---------- */
+.section-testimonials {
+  margin: 10rem;
+}
+
+.testimonial-header {
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.testimonial-header h2 {
+  font-size: 50px;
+}
+
+.testimonial-header img {
+  width: 55rem;
+  height: 15rem;
+  position: absolute;
+  opacity: 50%;
+  top: -4rem;
+  left: 32rem;
+  z-index: -1;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4rem;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 12rem 8rem 12rem;
+}
+
+.review-img {
+  width: 15rem;
+  height: 14rem;
+  border-radius: 100px;
+}
+
+.review {
+  padding: 3rem;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.review-name {
+  color: #e98f57;
+}
+/* --x------ TESTIMONIALS -------x-- */

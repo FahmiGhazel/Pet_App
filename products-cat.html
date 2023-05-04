@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/products-cat.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JS -->
+
+    <script src="products-cat.js"></script>
+
+    <title>Paws & Claws</title>
+  </head>
+
+  <body>
+    <!---------- Navbar starts here ---------->
+    <header class="header">
+      <a href="main.html">
+        <img
+          class="pnclogo"
+          alt="Paws & Claws Logo"
+          src="images/pawsclawslogo.png"
+      /></a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="products.html">Products</a></li>
+          <li><a class="main-nav-link" href="services.html">Services</a></li>
+          <li><a class="main-nav-link" href="about-us.html">About Us</a></li>
+          <li><a class="main-nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <a class="signinregister" href="#">Sign In / Register</a>
+    </header>
+    <!--x-------- Navbar ends here --------x-->
+
+    <!-- Search Bar -->
+    <div class="header-main">
+
+      <div class="container">
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!---------- Carousel starts here ---------->
+        <div class="banner">
+          <div class="container">
+            <div class="slider-container has-scrollbar">
+              <div class="slider-item">
+                <img src="images/productcat-1.jpg" alt="promotion banner 1" class="banner-img">
+                <div class="banner-content">
+                  <p class="banner-subtitle">Trending item</p>
+                  <h2 class="banner-title">Best accessories for your cat!</h2>
+                  <p class="banner-text">
+                    starting at &dollar; <b>20</b>.00
+                  </p>
+                  <a href="#products" class="banner-btn">Shop now</a>
+                </div>
+              </div>
+    
+              <div class="slider-item">
+                <img src="images/productcat-2.jpg" alt="promotion banner 2" class="banner-img">
+                <div class="banner-content">
+                  <p class="banner-subtitle">Trending accessories</p>
+                  <h2 class="banner-title">Travel essentials for your pawtastic friend!</h2>
+                  <p class="banner-text">
+                    starting at &dollar; <b>15</b>.00
+                  </p>
+                  <a href="#products" class="banner-btn">Shop now</a>
+                </div>
+              </div>
+    
+              <div class="slider-item">
+                <img src="images/productcat-3.jpg" alt="promotion banner 3" class="banner-img">
+                <div class="banner-content">
+                  <p class="banner-subtitle">Food & Treats</p>
+                  <h2 class="banner-title">A nutritious food is a happy tummy</h2>
+                  <p class="banner-text">
+                    starting at &dollar; <b>29</b>.99
+                  </p>
+                  <a href="#products" class="banner-btn">Shop now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--x-------- Carousel ends here --------x-->
+  
+      <!------- Sidebar category starts here ------->
+      <div class="product-container">
+        <div class="container">  
+          <div class="sidebar  has-scrollbar" data-mobile-menu>
+            <div class="sidebar-category">
+              <div class="sidebar-top">
+                <h2 class="sidebar-title">Category</h2>
+                <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+              </div>
+              
+              <ul class="sidebar-menu-category-list">
+                <!-- Category 1-->
+                <li class="sidebar-menu-category">
+                  <button class="sidebar-accordion-menu" data-accordion-btn>
+                    <div class="menu-title-flex">
+                      <img src="images/sidebar-1.png" alt="accessories" width="20" height="20"
+                        class="menu-title-img">
+                      <p class="menu-title">Accessories</p>
+                    </div>
+  
+                    <div>
+                      <input type="checkbox" id="accessories-cat" name="accessories-cat" unchecked>
+                    </div>
+  
+                  </button>
+                  <ul class="sidebar-submenu-category-list" data-accordion>
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Shirt</p>
+                        <data value="300" class="stock" title="Available Stock">300</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">shorts & jeans</p>
+                        <data value="60" class="stock" title="Available Stock">60</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">jacket</p>
+                        <data value="50" class="stock" title="Available Stock">50</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">dress & frock</p>
+                        <data value="87" class="stock" title="Available Stock">87</data>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <!-- Category 2-->
+                <li class="sidebar-menu-category">
+                  <button class="sidebar-accordion-menu" data-accordion-btn>
+                    <div class="menu-title-flex">
+                      <img src="images/sidebar-2.png" alt="food" class="menu-title-img" width="20"
+                        height="20">
+                      <p class="menu-title">Food</p>
+                    </div>
+  
+                    <div>
+                      <input type="checkbox" id="Food-cat" name="Food-cat" unchecked>
+                    </div>
+                  </button>
+  
+                  <ul class="sidebar-submenu-category-list" data-accordion>
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Sports</p>
+                        <data value="45" class="stock" title="Available Stock">45</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Formal</p>
+                        <data value="75" class="stock" title="Available Stock">75</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Casual</p>
+                        <data value="35" class="stock" title="Available Stock">35</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Safety Shoes</p>
+                        <data value="26" class="stock" title="Available Stock">26</data>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <!-- Category 3-->
+                <li class="sidebar-menu-category">
+                  <button class="sidebar-accordion-menu" data-accordion-btn>
+                    <div class="menu-title-flex">
+                      <img src="images/sidebar-3.png" alt="grooming" class="menu-title-img" width="20"
+                        height="20">
+                      <p class="menu-title">Grooming</p>
+                    </div>
+  
+                    <div>
+                      <input type="checkbox" id="Grooming-cat" name="Grooming-cat" unchecked>
+                    </div>
+                  </button>
+  
+                  <ul class="sidebar-submenu-category-list" data-accordion>
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Earrings</p>
+                        <data value="46" class="stock" title="Available Stock">46</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Couple Rings</p>
+                        <data value="73" class="stock" title="Available Stock">73</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Necklace</p>
+                        <data value="61" class="stock" title="Available Stock">61</data>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <!-- Category 4-->
+                <li class="sidebar-menu-category">
+                  <button class="sidebar-accordion-menu" data-accordion-btn>
+                    <div class="menu-title-flex">
+                      <img src="images/sidebar-4.png" alt="health" class="menu-title-img" width="20"
+                        height="20">
+                      <p class="menu-title">Health</p>
+                    </div>
+  
+                    <div>
+                      <input type="checkbox" id="health-cat" name="health-cat" unchecked>
+                    </div>
+                  </button>
+  
+                  <ul class="sidebar-submenu-category-list" data-accordion>
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Clothes Perfume</p>
+                        <data value="12" class="stock" title="Available Stock">12 pcs</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Deodorant</p>
+                        <data value="60" class="stock" title="Available Stock">60 pcs</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">jacket</p>
+                        <data value="50" class="stock" title="Available Stock">50 pcs</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">dress & frock</p>
+                        <data value="87" class="stock" title="Available Stock">87 pcs</data>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <!-- Category 5-->
+                <li class="sidebar-menu-category">
+                  <button class="sidebar-accordion-menu" data-accordion-btn>
+                    <div class="menu-title-flex">
+                      <img src="images/sidebar-5.png" alt="toys" class="menu-title-img" width="20"
+                        height="20">
+                      <p class="menu-title">Toys</p>
+                    </div>
+  
+                    <div>
+                      <input type="checkbox" id="toys-cat" name="toys-cat" unchecked>
+                    </div>
+                  </button>
+  
+                  <ul class="sidebar-submenu-category-list" data-accordion>
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Shampoo</p>
+                        <data value="68" class="stock" title="Available Stock">68</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Sunscreen</p>
+                        <data value="46" class="stock" title="Available Stock">46</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Body Wash</p>
+                        <data value="79" class="stock" title="Available Stock">79</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Makeup Kit</p>
+                        <data value="23" class="stock" title="Available Stock">23</data>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li class="sidebar-menu-category">
+                  <button class="sidebar-accordion-menu" data-accordion-btn>
+                    <div class="menu-title-flex">
+                      <img src="images/sidebar-6.png" alt="treats" class="menu-title-img" width="20"
+                        height="20">
+                      <p class="menu-title">Treats</p>
+                    </div>
+  
+                    <div>
+                      <input type="checkbox" id="treats-cat" name="treats-cat" unchecked>
+                    </div>
+                  </button>
+  
+                  <ul class="sidebar-submenu-category-list" data-accordion>
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Sunglasses</p>
+                        <data value="50" class="stock" title="Available Stock">50</data>
+                      </a>
+                    </li>
+  
+                    <li class="sidebar-submenu-category">
+                      <a href="#" class="sidebar-submenu-title">
+                        <p class="product-name">Lenses</p>
+                        <data value="48" class="stock" title="Available Stock">48</data>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+      <!--x------ Sidebar category ends here ------x-->
+
+      <!------- Sidebar bestseller starts here ------->
+            <div class="product-showcase">
+              <h3 class="showcase-heading">best sellers</h3>
+  
+              <div class="showcase-wrapper">
+                <div class="showcase-container">
+                  <!-- Bestseller 1-->
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="images/petfood-1.png" alt="Pet Food" width="75" height="75"
+                        class="showcase-img">
+                    </a>
+                  
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Pet Food</h4>
+                      </a>
+
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <del>$5.00</del>
+                        <p class="price">$4.00</p>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Bestseller 2-->
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="images/petfood-2.png" alt="Pet Food" class="showcase-img"
+                        width="75" height="75">
+                    </a>
+  
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Pet Food</h4>
+                      </a>
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <del>$17.00</del>
+                        <p class="price">$7.00</p>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Bestseller 3-->
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="images/petfood-3.png" alt="Pet Food" class="showcase-img" width="75"
+                        height="75">
+                    </a>
+  
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Pet Food</h4>
+                      </a>
+
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <del>$5.00</del>
+                        <p class="price">$3.00</p>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Bestseller 4-->
+                  <div class="showcase">
+                    <a href="#" class="showcase-img-box">
+                      <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img" width="75"
+                        height="75">
+                    </a>
+  
+                    <div class="showcase-content">
+                      <a href="#">
+                        <h4 class="showcase-title">Pet Food</h4>
+                      </a>
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+  
+                      <div class="price-box">
+                        <del>$15.00</del>
+                        <p class="price">$12.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+   <!--x----- Sidebar bestseller ends here -----x-->
+
+
+  <!---------- New arrivals/Trending/Top Rated ---------->
+   <div class="product-box" id="products">
+
+    <div class="product-minimal">
+      <div class="product-showcase">
+        <h2 class="title">New Arrivals</h2>
+
+        <div class="showcase-wrapper has-scrollbar">
+          <div class="showcase-container">
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" width="70" class="showcase-img">
+              </a>
+
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+
+                <div class="price-box">
+                  <p class="price">$45.00</p>
+                  <del>$12.00</del>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" width="70" class="showcase-img">
+              </a>
+
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+
+                <div class="price-box">
+                  <p class="price">$45.00</p>
+                  <del>$12.00</del>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" width="70" class="showcase-img">
+              </a>
+
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+
+                <div class="price-box">
+                  <p class="price">$45.00</p>
+                  <del>$12.00</del>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-container">
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" width="70" class="showcase-img">
+              </a>
+
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+
+                <div class="price-box">
+                  <p class="price">$45.00</p>
+                  <del>$12.00</del>
+                </div>
+              </div>
+            </div>
+          
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" width="70" class="showcase-img">
+              </a>
+
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+
+                <div class="price-box">
+                  <p class="price">$45.00</p>
+                  <del>$12.00</del>
+                </div>
+              </div>
+            </div>
+          
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" width="70" class="showcase-img">
+              </a>
+
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+
+                <div class="price-box">
+                  <p class="price">$45.00</p>
+                  <del>$12.00</del>
+                </div>
+              </div>
+            </div>          
+          </div>
+        </div>
+      </div>
+
+      <div class="product-showcase">
+        <h2 class="title">Trending</h2>
+        <div class="showcase-wrapper  has-scrollbar">
+      
+          <div class="showcase-container">
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$49.00</p>
+                  <del>$15.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$49.00</p>
+                  <del>$15.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$49.00</p>
+                  <del>$15.00</del>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="showcase-container">
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$52.00</p>
+                  <del>$55.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$52.00</p>
+                  <del>$55.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$52.00</p>
+                  <del>$55.00</del>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-showcase">
+        <h2 class="title">Top Rated</h2>
+      
+        <div class="showcase-wrapper  has-scrollbar">
+          <div class="showcase-container">
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Watches</a>
+    
+                <div class="price-box">
+                  <p class="price">$50.00</p>
+                  <del>$34.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Watches</a>
+    
+                <div class="price-box">
+                  <p class="price">$50.00</p>
+                  <del>$34.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Watches</a>
+    
+                <div class="price-box">
+                  <p class="price">$50.00</p>
+                  <del>$34.00</del>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="showcase-container">
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$62.00</p>
+                  <del>$65.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$62.00</p>
+                  <del>$65.00</del>
+                </div>
+              </div>
+            </div>
+      
+            <div class="showcase">
+              <a href="#" class="showcase-img-box">
+                <img src="images/petfood-1.png" alt="Pet Food" class="showcase-img"
+                  width="70">
+              </a>
+      
+              <div class="showcase-content">
+                <a href="#">
+                  <h4 class="showcase-title">Pet Food</h4>
+                </a>
+                <a href="#" class="showcase-category">Food</a>
+      
+                <div class="price-box">
+                  <p class="price">$62.00</p>
+                  <del>$65.00</del>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!--x------- New arrivals/Trending/Top Rated -------x-->
+
+
+
+    <!--
+      - PRODUCT FEATURED
+    -->
+
+    <div class="product-featured">
+      <h2 class="title">Deal of the day</h2>
+
+      <div class="showcase-wrapper has-scrollbar">
+        <div class="showcase-container">
+          <div class="showcase">
+            <div class="showcase-banner">
+              <img src="images/petfood-3.png" alt="pet accessories" class="showcase-img">
+            </div>
+
+            <div class="showcase-content">
+              <div class="showcase-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+
+              <a href="#">
+                <h3 class="showcase-title">Stainless Steel dual cat bowl BPA free</h3>
+              </a>
+              <p class="showcase-desc">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum
+                dolor dolor sit amet consectetur Lorem ipsum dolor
+              </p>
+
+              <div class="price-box">
+                <p class="price">$20</p>
+                <del>$35</del>
+              </div>
+
+              <button class="add-cart-btn">add to cart</button>
+
+              <div class="showcase-status">
+                <div class="wrapper">
+                  <p>
+                    available: <b>40</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-container">
+          <div class="showcase">
+            <div class="showcase-banner">
+              <img src="images/petfood-2.png" alt="dog chews and bones" class="showcase-img">
+            </div>
+        
+            <div class="showcase-content">
+              <div class="showcase-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+        
+              <h3 class="showcase-title">
+                <a href="#" class="showcase-title">New Zealand Premium Dog Chew & Bone</a>
+              </h3>
+        
+              <p class="showcase-desc">
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum
+                dolor dolor sit amet consectetur Lorem ipsum dolor
+              </p>
+        
+              <div class="price-box">
+                <p class="price">$50</p>
+                <del>$80</del>
+              </div>
+        
+              <button class="add-cart-btn">add to cart</button>
+        
+              <div class="showcase-status">
+                <div class="wrapper">
+                  <p> available: <b>21</b> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--
+      - SERVICE
+    -->
+
+    <div class="service">
+
+      <h2 class="title">What we offer</h2>
+
+      <div class="service-container">
+
+        <a href="#" class="service-item">
+
+          <div class="service-icon">
+            <ion-icon name="boat-outline"></ion-icon>
+          </div>
+
+          <div class="service-content">
+
+            <h3 class="service-title">Worldwide Delivery</h3>
+            <p class="service-desc">For Order Over $150</p>
+
+          </div>
+
+        </a>
+
+        <a href="#" class="service-item">
+        
+          <div class="service-icon">
+            <ion-icon name="rocket-outline"></ion-icon>
+          </div>
+        
+          <div class="service-content">
+        
+            <h3 class="service-title">Next Day delivery</h3>
+            <p class="service-desc">Local Orders Only</p>
+        
+          </div>
+        
+        </a>
+
+        <a href="#" class="service-item">
+        
+          <div class="service-icon">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+        
+          <div class="service-content">
+        
+            <h3 class="service-title">Best Online Support</h3>
+            <p class="service-desc">Hours: 9AM - 7PM</p>
+        
+          </div>
+        
+        </a>
+
+        <a href="#" class="service-item">
+        
+          <div class="service-icon">
+            <ion-icon name="arrow-undo-outline"></ion-icon>
+          </div>
+        
+          <div class="service-content">
+        
+            <h3 class="service-title">Return Policy</h3>
+            <p class="service-desc">Easy & Free Return</p>
+        
+          </div>
+        
+        </a>
+
+        <a href="#" class="service-item">
+        
+          <div class="service-icon">
+            <ion-icon name="ticket-outline"></ion-icon>
+          </div>
+        
+          <div class="service-content">
+        
+            <h3 class="service-title">30% money back</h3>
+            <p class="service-desc">For Order Over $100</p>
+        
+          </div>
+        
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+</div>
+<script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    >
+  </script>
+
+</main>
+
+          
+                    
+                        
+                        

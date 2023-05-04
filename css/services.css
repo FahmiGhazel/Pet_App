@@ -1,0 +1,651 @@
+.section-border {
+  width: 40rem;
+  opacity: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+/* .landing-photo {
+  margin-bottom: 8.6rem;
+} */
+
+.grooming {
+  height: 55vh;
+  background-image: url("../images/grooming-landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-landing {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-landing h1 {
+  font-size: 5.6rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-landing p {
+  font-size: 1.8rem;
+  margin-bottom: 6rem;
+  color: #555;
+}
+
+.services-categories {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+.btn-services:link,
+.btn-services:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 18px;
+  padding: 1rem 4rem 1rem 4rem;
+  border-color: #e68244;
+  border-style: solid;
+  color: #333;
+}
+
+.btn-services:hover,
+.btn-services:active {
+  background-color: #e68244;
+  color: #fff;
+}
+
+/* Grooming */
+.section-grooming {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+}
+.full-groom {
+  display: flex;
+  align-content: center;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.full-groom-img img {
+  width: 60rem;
+  border-radius: 24px;
+}
+
+.caption-groom {
+  margin: 3rem 0;
+}
+
+.caption-groom h2 {
+  font-size: 4.8rem;
+  margin-bottom: 3rem;
+  color: #e68244;
+}
+
+.caption-groom p {
+  font-size: 1.6rem;
+}
+
+.packagelist {
+  display: flex;
+  gap: 5rem;
+}
+
+.caption-groom ul {
+  font-size: 1.6rem;
+  margin-bottom: 6rem;
+  list-style: none;
+  padding: 0;
+}
+
+.caption-groom li {
+  padding: 1.5rem;
+}
+
+.caption-groom ul li:before {
+  content: "✓";
+  padding: 1rem;
+}
+
+.bookgroom-full:link,
+.bookgroom-full:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 18px;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #e68244;
+  color: #fff;
+  display: inline-block;
+}
+
+.bookgroom-full:hover,
+.bookgroom-full:active {
+  background-color: #57f1b1;
+  color: #333;
+}
+
+.basic-groom {
+  display: flex;
+  align-content: center;
+  gap: 4rem;
+  margin-bottom: 10rem;
+}
+
+.basic-groom-img img {
+  width: 60rem;
+  border-radius: 24px;
+  box-shadow: 5px 3px 8px #0000001e;
+}
+
+.bookgroom-basic:link,
+.bookgroom-basic:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 18px;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #e68244;
+  color: #fff;
+  display: inline-block;
+  margin-top: -1.6rem;
+}
+
+.bookgroom-basic:hover,
+.bookgroom-basic:active {
+  background-color: #57f1b1;
+  color: #333;
+}
+
+.groombox {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.pricinglist {
+  max-width: 120rem;
+  padding: 2.4rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fdf2e9;
+}
+
+.pricinglist h2 {
+  font-size: 2.4em;
+  margin-bottom: 4rem;
+  color: #e68244;
+  text-transform: uppercase;
+}
+
+.pricinglist h3 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.prices {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 4rem;
+  position: relative;
+}
+
+.price-box {
+  display: flex;
+}
+
+.fullgroom-price,
+.fullgroom-pricenum {
+  list-style: none;
+  text-align: left;
+  font-size: 1.8rem;
+  color: #888;
+  margin-bottom: 4rem;
+}
+
+.fullgroom-price li,
+.fullgroom-pricenum li {
+  margin: 3rem;
+}
+
+.basicgroom-price,
+.basicgroom-pricenum {
+  list-style: none;
+  text-align: left;
+  font-size: 1.8rem;
+  color: #888;
+}
+
+.basicgroom-price li,
+.basicgroom-pricenum li {
+  margin: 3rem;
+}
+
+/* Boarding */
+
+.section-boarding {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.boarding-heading {
+  font-size: 6.4rem;
+  color: #e68244;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.boarding-desc {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 10rem;
+}
+
+.boarding-types {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.board-photo {
+  position: relative;
+  width: 35rem;
+  height: 35rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.board-1::after {
+  content: "3 NIGHTS";
+  position: absolute;
+  top: 5%;
+  right: -22%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #e68244;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.board-2::after {
+  content: "7 NIGHTS";
+  position: absolute;
+  top: 5%;
+  right: -22%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #e68244;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+.board-3::after {
+  content: "30 NIGHTS";
+  position: absolute;
+  top: 5%;
+  right: -22%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #e68244;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.boardtype-img {
+  width: 35rem;
+  margin-bottom: 3rem;
+  border-radius: 18px;
+  position: absolute;
+}
+
+.boardtype-img:hover {
+  opacity: 10%;
+  transition: opacity 1s;
+}
+
+.booklink {
+  z-index: -1;
+  display: inline-block;
+  padding: 10rem;
+  font-size: 2.4rem;
+  color: #e68244;
+  font-weight: 500;
+}
+
+.booklink p {
+  font-size: 2.4rem;
+}
+
+.board-desc {
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  color: #888;
+}
+
+.pricing-board {
+  font-size: 3.2rem;
+  margin-top: 4rem;
+  color: #e68244ab;
+  font-weight: 700;
+}
+
+/* Walking */
+
+.section-walking {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.walking-title {
+  font-size: 6.4rem;
+  color: #e68244;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+
+.walking-header {
+  margin-bottom: 12rem;
+}
+
+.walking-header h3 {
+  font-size: 3.6rem;
+  color: #333;
+  margin-bottom: 6rem;
+}
+
+.walking-header p {
+  font-size: 1.8rem;
+  color: #888;
+  padding: 0 15rem;
+  margin-bottom: 5rem;
+}
+
+.gtky-title {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.walker-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50rem;
+  margin: 3rem;
+  border: solid #e68244;
+}
+
+.dogwalkers {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.walkerimgs h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.walkerimgs p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.walkerimgs ul {
+  font-size: 1.2rem;
+  color: #888;
+}
+.walkerimgs li {
+  list-style: none;
+}
+
+.whychoose-title {
+  font-size: 4.6rem;
+  color: #e68244;
+  margin-bottom: 4rem;
+}
+
+.whychoose ul {
+  text-align: left;
+  padding: 0 20rem;
+  margin: 4rem;
+  margin-bottom: 5rem;
+}
+
+.whychoose li {
+  list-style: none;
+  font-size: 1.8rem;
+  padding: 3rem;
+  line-height: 1.5;
+}
+
+.walkprice-details {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #e68244;
+  margin-bottom: 6rem;
+}
+
+.rates {
+  font-size: 2rem;
+  color: #888;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+.rates-div {
+  background-color: #fdf2e9;
+  padding-top: 2rem;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.walking-price {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.walking-price ul {
+  text-align: left;
+}
+
+.walking-price li {
+  font-size: 1.8rem;
+  list-style: none;
+  padding: 2rem;
+}
+
+.book-walking:link,
+.book-walking:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 18px;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #e68244;
+  color: #fff;
+  display: inline-block;
+  margin-top: 4rem;
+}
+
+.book-walking:hover,
+.book-walking:active {
+  background-color: #57f1b1;
+  color: #333;
+}
+
+/* Veterinary */
+
+.section-vet {
+  max-width: 120rem;
+  padding: 6rem 0;
+  margin: 0 auto;
+}
+
+.vet-title {
+  font-size: 6.4rem;
+  color: #e68244;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+
+.vet-header {
+  margin-bottom: 10rem;
+}
+
+.vet-header p {
+  font-size: 1.8rem;
+  color: #888;
+  padding: 0 25rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.vet-services {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 70rem;
+  gap: 3rem;
+}
+
+.vetservices-detail {
+  border: solid rgba(136, 136, 136, 0.286);
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.vetservices-detail h2 {
+  color: #e68244;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.icon-vetservices {
+  font-size: 4rem;
+  color: #888;
+}
+
+.vetservices-detail--1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.vetservices-detail--2 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.vetservices-detail--3 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.vetservices-detail--4 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+
+.vetsection-desc {
+  display: flex;
+  gap: 10rem;
+}
+
+.vetserv-desc h2 {
+  margin-top: 5rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #e79765;
+}
+
+.vetserv-desc p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-top: 5rem;
+  padding-right: 6rem;
+}
+
+.vet-call:link,
+.vet-call:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 18px;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #e68244;
+  color: #fff;
+  display: inline-block;
+  margin-top: 4rem;
+}
+
+.vet-call:hover,
+.vet-call:active {
+  background-color: #57f1b1;
+  color: #333;
+}
+
+.book-vet:link,
+.book-vet:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 18px;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: #e68244;
+  color: #fff;
+  display: inline-block;
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+
+.book-vet:hover,
+.book-vet:active {
+  background-color: #57f1b1;
+  color: #333;
+}
